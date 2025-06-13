@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to right, #ffe6f0, #e6f7ff);
+  font-family: 'Comic Sans MS', sans-serif;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4d6d;
+  font-size: 2.5rem;
+}
+
+ul {
+  max-width: 600px;
+  margin: auto;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  list-style: none;
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.03);
+  background-color: #eafff5;
+}
